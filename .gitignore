@@ -1,0 +1,32 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.lock
+*.cache
+
+# Backup files
+*~
+*.old
+
+# Linux-specific temp files
+*.pid
+*.sock
+
+# Config files that contain secrets (add only if they exist in your project)
+*.key
+*.pem
+*.crt
+*.env
+
+# Python bytecode (if you have scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
