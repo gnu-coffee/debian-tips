@@ -51,4 +51,4 @@ Essential packages to get started with a Debian server:
 
 Finally we have:  
 ```bash
-apt -y install vim nano less curl wget gnupg gpg ca-certificates lsb-release apt-transport-https git zip unzip
+apt -y install vim less curl wget gnupg gpg ca-certificates lsb-release apt-transport-https git zip unzip
