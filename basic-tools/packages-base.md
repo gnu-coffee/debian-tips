@@ -9,6 +9,10 @@ Essential packages to get started with a Debian server:
   ```bash
   apt install vim
 
+- **tree** – list contents of directories in a tree-like format
+  ```bash
+  apt install tree
+
 - **less** – view files  
   ```bash
   apt install less
@@ -51,4 +55,4 @@ Essential packages to get started with a Debian server:
 
 Finally we have:  
 ```bash
-apt -y install vim less curl wget gnupg gpg ca-certificates lsb-release apt-transport-https git zip unzip
+apt -y install vim tree less curl wget gnupg gpg ca-certificates lsb-release apt-transport-https git zip unzip
