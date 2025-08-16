@@ -49,10 +49,14 @@ Essential packages to get started with a Debian server:
   ```bash
   apt install zip unzip
 
+- **bash-completion** – auto bash-completion
+  ```bash
+  apt install bash-completion
+
 ---
 
 ## Install All Base Packages
 
 Finally we have:  
 ```bash
-apt -y install vim tree less curl wget gnupg gpg ca-certificates lsb-release apt-transport-https git zip unzip
+apt -y install vim tree less curl wget gnupg gpg ca-certificates lsb-release apt-transport-https git zip unzip bash-completion
