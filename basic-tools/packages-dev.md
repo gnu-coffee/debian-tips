@@ -30,7 +30,7 @@ Development packages to get started with a Debian server:
 Finally we have:  
 ```bash
 apt -y install build-essential
-
+```
 ---
 
 ## Install python based Development Packages
@@ -38,3 +38,4 @@ apt -y install build-essential
 Finally we have:  
 ```bash
 apt -y install python3 python3-venv python3-pip
+```
