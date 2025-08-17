@@ -9,6 +9,14 @@ Development packages to get started with a Debian server:
   ```bash
   apt install build-essential
 
+- **libssl-dev** – Development libraries and headers for OpenSSL, required for building applications that use secure communications (TLS/SSL).
+  ```bash
+  apt install libssl-dev
+
+- **libffi-dev** – Development headers and libraries for the Foreign Function Interface library, used to call functions written in other programming languages (e.g., C) from higher-level languages like Pytho
+  ```bash
+  apt install libffi-dev libssl-dev libffi-dev
+
 ## Python Tools
 
 - **python3** – the Python 3 interpreter, which runs Python code.
