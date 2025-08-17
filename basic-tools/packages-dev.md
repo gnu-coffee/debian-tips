@@ -13,7 +13,7 @@ Development packages to get started with a Debian server:
   ```bash
   apt install libssl-dev
 
-- **libffi-dev** – Development headers and libraries for the Foreign Function Interface library, used to call functions written in other programming languages (e.g., C) from higher-level languages like Pytho
+- **libffi-dev** – Development headers and libraries for the Foreign Function Interface library, used to call functions written in other programming languages (e.g., C) from higher-level languages like Python
   ```bash
   apt install libffi-dev libssl-dev libffi-dev
 
