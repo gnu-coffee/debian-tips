@@ -15,7 +15,7 @@ Development packages to get started with a Debian server:
 
 - **libffi-dev** – Development headers and libraries for the Foreign Function Interface library, used to call functions written in other programming languages (e.g., C) from higher-level languages like Python
   ```bash
-  apt install libffi-dev libssl-dev libffi-dev
+  apt install libffi-dev
 
 ## Python Tools
 
@@ -27,7 +27,7 @@ Development packages to get started with a Debian server:
   ```bash
   apt install python3-pip
 
-- **python3** – the Python 3 interpreter, which runs Python code.
+- **python3-venv** – ackage provides support for creating lightweight, isolated virtual environments for Python 3.
   ```bash
   apt install python3
 
@@ -37,7 +37,7 @@ Development packages to get started with a Debian server:
 
 Finally we have:  
 ```bash
-apt -y install build-essential
+apt -y install build-essential libssl-dev libffi-dev
 ```
 ---
 
@@ -45,5 +45,5 @@ apt -y install build-essential
 
 Finally we have:  
 ```bash
-apt -y install python3 python3-venv python3-pip
+apt -y install python3 python3-pip python3-venv
 ```
