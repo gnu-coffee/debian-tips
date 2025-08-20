@@ -5,6 +5,11 @@ Basic security and firewall tools:
 
 ## Tools
 
+- **iptables** – This package provides a command-line utility for configuring Linux kernel firewall rules, allowing control over network traffic filtering and NAT.
+  ```bash
+  apt install iptables
+
+
 - **firewalld** – firewall management  
   ```bash
   apt install firewalld
@@ -23,4 +28,4 @@ Basic security and firewall tools:
 
 Finally we have:  
 ```bash
-apt -y install firewalld fail2ban unattended-upgrades
+apt -y install iptables firewalld fail2ban unattended-upgrades
