@@ -1,6 +1,6 @@
 # Debian Tips - Repositories
 
-This folder contains configuration files for Debian Stable repositories.
+This folder contains configuration files for Debian Stable/Testing/etc repositories.
 
 ## Debian Repositories
 
